@@ -1,3 +1,4 @@
 *lock*
 .docusaurus
 .vscode
+node_modules
