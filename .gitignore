@@ -2,3 +2,4 @@
 .docusaurus
 .vscode
 node_modules
+build
