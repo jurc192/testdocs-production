@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Docs site',
   tagline: 'Documentation is cool',
-  url: 'https://testme.com',
-  baseUrl: '/',
+  url: 'https://jurc192.github.io',
+  baseUrl: '/testdocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'jure', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'jurc192', // Usually your GitHub org/user name.
+  projectName: 'testdocs', // Usually your repo name.
 
   presets: [
     [
