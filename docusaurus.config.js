@@ -9,12 +9,12 @@ const config = {
   title: 'Docs site',
   tagline: 'Documentation is cool',
   url: 'https://jurc192.github.io',
-  baseUrl: '/testdocs/',
+  baseUrl: '/testdocs-production/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'jurc192', // Usually your GitHub org/user name.
-  projectName: 'testdocs', // Usually your repo name.
+  projectName: 'testdocs-production', // Usually your repo name.
 
   presets: [
     [
