@@ -3,6 +3,4 @@
 
 const config = require('./docusaurus.config.base')
 
-config.title += 'Staging'
-
 module.exports = config;

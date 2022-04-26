@@ -19,9 +19,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Copy config
-        run: cp docusaurus.config.prod.js docusaurus.config.js
-
       - name: Build website
         run: npm run build
 
@@ -44,6 +41,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Copy config
+        run: cp docusaurus.config.staging.js docusaurus.config.js
 
       - name: Build website
         run: npm run build
