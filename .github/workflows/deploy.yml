@@ -7,7 +7,7 @@ on:
 jobs:
   production-deploy:
     if: github.repository == 'jurc192/testdocs-production'
-    name: Deploy to GitHub Pages
+    name: Deploy to GitHub Pages production
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -32,8 +32,8 @@ jobs:
           publish_dir: ./build
   
   staging-deploy:
-    if: github.repository != 'jurc192/testdocs'
-    name: Deploy to GitHub Pages
+    if: github.repository == 'jurc192/testdocs'
+    name: Deploy to GitHub Pages staging
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
