@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs site',
-  tagline: 'Documentation is cool',
+  title: 'STAGINGGGGGGGGGG',
+  tagline: 'STAGINGGGGGGGGGG',
   url: 'https://jurc192.github.io',
   baseUrl: '/testdocs/',
   onBrokenLinks: 'throw',
